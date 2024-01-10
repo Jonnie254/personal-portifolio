@@ -139,3 +139,25 @@ span{
 .btn hover{
     box-shadow: none;
 }
+.about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    background-color: var(--second-bg-color);
+}
+.about-img img{
+    width: 35vw; 
+    height: auto; 
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #0ef;
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about h2{
+    text-align: left;
+    line-height: 1.2;
+}
