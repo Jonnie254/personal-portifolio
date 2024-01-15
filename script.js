@@ -29,6 +29,15 @@ window.onscroll = () => {
 
     /*======== remove toggle icon and navbar when click navbar link ========*/
     menuIcon.classList.remove('bx-x');
-    navbar.classList.remove('active');
-    
-};     
+    navbar.classList.remove('active');   
+};    
+/*========== scroll reveal ===========*/
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+// Apply the reveal effect to elements
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
