@@ -27,7 +27,7 @@
             <div class="home-content">
                 <h3>Hello, It's Me</h3>
                 <h1>Jonnie</h1>
-                <h3>And I'm a full stack <span class="multiple-text"></span></h3>
+                <h3>And I'm a <span class="auto-type"></span></h3>
                 <p>As a full stack developer, I tackle both the frontend part of the application and also the
                     backend part of the application.
                 </p>
@@ -192,6 +192,15 @@
 
         <!---Typed Js-->
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ['Software Developer.', 'Backend Developer.', 'Frontend Developer.'],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true
+            });
+        </script>
         
 
     </body>

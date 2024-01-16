@@ -46,10 +46,10 @@ ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content',{origin: 'right'});
 
 /*======== typed js ========*/
-const typed = new Typed('.multiple-text', {
+var  typed = new Typed(".auto-type", {
     strings: ['Software Developer', 'Backend Developer', 'Frontend Developer'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000, 
+    //backDelay: 1000
     loop: true
 });
