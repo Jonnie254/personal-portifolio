@@ -34,8 +34,7 @@ This is a personal portfolio website showcasing my skills, projects, and contact
 
 ## Deployment
 The website is deployed using:
-- **GitHub Pages**: [Live Demo](https://your-username.github.io/portfolio/)
-- **Netlify**: [Live Demo](https://personal-portifolio-sooty.vercel.app)
+- **Vercel**: [Live Demo](https://personal-portifolio-sooty.vercel.app)
 
 ## Future Enhancements
 - Add a blog section.
